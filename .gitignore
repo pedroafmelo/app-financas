@@ -1,4 +1,4 @@
-data/
+# data/
 .venv/
 *.env
 .DS_Store

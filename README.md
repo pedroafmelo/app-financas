@@ -2,7 +2,7 @@
 
 **Autor:** Pedro Melo  
 **Disciplina:** Tópicos Avançados em Finanças — UFPB  
-**Orientadores:** Dr. Orleans Martins, Dr. Felipe Pontes e Ms. Thatiane Oliveira
+**Professor:** Jorge Norões
 
 ---
 
