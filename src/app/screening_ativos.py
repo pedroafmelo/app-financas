@@ -148,20 +148,12 @@ def _load_cotacoes_api():
 
 @st.cache_data(show_spinner=False)
 def update_data():
-    df_cotacoes = sanitize_df(
-                bt.get_data(config["cotacoes_liquidez_data_feed"], feed=True)
-                .set_axis(["ticker", "data", "close", "qt_negs", "vol_negociado"], axis="columns"),
-                cols_to_cast_float=["close"],
-                cols_to_cast_int=[],
-                col_to_cast_date="data",
-            )
+    df_cotacoes = bt.get_data(config["cotacoes_liquidez_data_feed"], feed=True)
     
-    df_elegibilidade = (
-                bt.get_data(config["elegibilidade_data_feed"], feed=True)
-            )
+    df_elegibilidade = bt.get_data(config["elegibilidade_data_feed"], feed=True)
 
-    df_cotacoes.to_csv(f"{config["data_path"]}/cotacoes_liquidez_ativos.csv")
-    df_elegibilidade.to_csv(f"{config["data_path"]}/elegibilidade_ativos.csv")
+    df_cotacoes.to_csv(f"{config["data_path"]}/cotacoes_liquidez_ativos.csv", index=False)
+    df_elegibilidade.to_csv(f"{config["data_path"]}/elegibilidade_ativos.csv", index=False)
 
     get_screening_df()
     risk_factors.transform_trimestral_indicators()
