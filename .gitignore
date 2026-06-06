@@ -1,0 +1,15 @@
+data/
+.venv/
+*.env
+.DS_Store
+.python-version
+.vscode/
+CLAUDE.md
+pyptoject.toml
+uv.lock
+__pycache__
+pyproject.toml
+superpowers/
+docs/
+mudancas.md
+tests.ipynb

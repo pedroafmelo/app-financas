@@ -1,0 +1,235 @@
+config_vars:
+  cdi_file_path: cdi_diario.csv
+  cdi_mensal_file_path: cdi_mensal.csv
+  cotacoes_liquidez_data_feed: https://api.data.economatica.com/1/oficial/datafeed/download/1/BqoO%2F6QYCyirGvoYQvkWKYLIt6m7Qal9Mo%2BJWpc%2B140Lyt9so5GjEywaSui4JInb3QmdUPpttqYhthH%2BqnMi97xTxXuOLQ4%2By73sib9iQ0qVS6PVHuOLZaerphvORMg7kmVaCB7x007hcBMGZfRXiZ0JnFeJ7MPde6bfcHNzt%2BII3lhpHZnFzUvYZHrqysStg2fbMg7HZU4Z0FlDye8151nqF9krdhSqhOcAAsaUHn4euJKy7miI%2Fndwu7xLTLeAcp65pgt4qTvfF0AGbknipPEaJ9xGgPQ1VLjL0T1T22rUHNLlKppGVnbTxDxrk%2B4OaxGlpnTDpFwhvjoNSuLdZw%3D%3D-R74u7tBvXZCs%2FM2x4WZA%2BBMa6Y9y1EZw6EW4i4NUr8Uy5I%2BzvQV3MS415RC9lmMnnqDQxNw%2F%2FBAspyydAdX00mNntXjnWcDB4vEnk11nu3UOWidtOjrTNhicdbzovUEr5DC%2BiPeSGdm%2F%2BBb6To%2BMfv1WgGZrAmSK36YHukL%2F656k2HLuBSqBbhUmivbAMKdBcComE%2B4ClGXU2DlnZJTKoh8DVq0GSBs6IryEF7xTxYD3yQPqIQM5ppEOlLG9AKqmbL5x3CKQCfhejZlTccUTSyx46gL7EnNNjgVL6XoUXS%2FXMvTM0QbbIZmIax3rU7LCzSegrSoO%2Fl2Qn4KA%2FB1Vew%3D%3D
+  elegibilidade_data_feed: https://api.data.economatica.com/1/oficial/datafeed/download/1/bV7AyuRikEdaCYBkqmx2BDGHEfRD7ctIjaN3kDZNRXZXOXrbNexcPRqNjoIR1Ag6liVzK7X7gLQcUPea8V0Iv1JAYVDtkXnqoCHgmmErFxikiQrRBTXMwmmr400lpiYAI3KWovbOxcTB4tRI3Bgye7pEnW7DDdwJtk5FzMEd3mrDjvwUuFkb%2BkK40Gjlb%2B6G%2BURECHsOhz%2BdXxnhGZMjbpZwiaW6iR9TGlQYPF8Ld%2FG%2BC6M%2Fz26fjlAzKAFZuLvTEUVRIS1rT44duQMISatGGBBHf1NwmoBEN1w9MLfrfJvhNadmkSIM2se1%2FCuyWAR1phWc8iiZip%2BQsbQqdWJ6bw%3D%3D-Gd%2FcE86GCX%2BeRGPon45awkeikBeWWeIEQEOcr7iU1dByIX0%2F5FTIIdJrrPGc93%2FOUKIs5xhpJrkSNR7mBE%2F5t%2FFj1GavtK2zfw%2FtC7XypeSOboI5yBdidvsHIwm6BmO8WkeHJmJPAQu64slWwfqBMm4Lpt0gklwLY7YeqxSUXXxyCQWQjsrHV4JBhhZorU%2Ffqq776PY%2BXujENAT%2BuRmRzmoEdHh54hjTZ7%2BEo0O0REvjcIFlpgYhvzq7AVv60ajK77bkUDEl22Imr0SWZ4rXQ3%2FYSFZaA%2B%2Bn%2FEAUbhB%2B%2FIvrG3CJ61X4rUiwj9DI2t7Ewxxz0LR%2F%2FieucVrbLKKF%2Fw%3D%3D
+  elegibilidade_final_file_path: elegibilidade_final.csv
+  ibovespa_data_feed: https://api.data.economatica.com/1/oficial/datafeed/download/1/fOr%2Bq3jZ%2BeUqmnGVEpNxNaIu%2FaFVb%2B9MpcURDUWb8Kfaw%2Fad8GwieGn41sf39tZRIq0nzV5FtcXefAsWIlTt4migcotLytiiYxVZi%2B%2FRk6%2BKAcy9jgqUf12HzQo5mNlkCWfYFQ6uOpZQSbwEevzg8tdPhU%2BcCxrKbr2wSyZvUkP96mcIYXivm%2FR7HT1eJ9atRbPeUjYgSPU2vfWp4zyB3Dhb3yzTijYQz97R65beYyCHnL5umVnTQNevjhgO9dTyJrvst%2FYDma39R6HEv8jtRAUN0wvD4IQ0SPKQALvmSyf7XDyzn1Z0G9cVHuWVgHDQvK2YxoE5A%2F5B0XV4b4vbmA%3D%3D
+  indicadores_data_feed: https://api.data.economatica.com/1/oficial/datafeed/download/1/jPt8sb1%2BJ5tCi9L13zvR3lDpxdnAmoADwI5%2F9vZVzok3wjYbWxTb12TXxPjEE5GsHBpt1Xf75vl57MxQuxjbnhpS65V0Nd0LeftEtUWvpo9UNZBLd4QKCQsPYrLWAg3ov0uKyuRjblxvtNDAJw5XenjifIUUvQotw%2Fg27BwdihePN4L8aErU694yYy8lSCRgz2jxicQhDRj%2FHApVX38NNCYmoW71fHPjXTBmoPvnfSoLpIVXRokl0oRhcBST8Ohrn1W69AGKrC%2BBypQ23wtNfUMniLnhQ%2BPxCIZVX0Zz9m2wiILgGedERSdRLnCwyWOym5ABXAQX4tBAxXARATZ0zg%3D%3D-UUnxmkh4SW76IT3bAxQpjBXnqjJnxGYsRLQNPMS%2BG08CzexYm9KdNzSIHUPk12zJW%2B3r7P6vLivyHtrgvf6USHTMXKea0J9OQBXqEJ8gbaNrArTNT0c9lnQ4LfCcSWKSZ3jVonw42r1wdlS2zUFQ0qMBuU1RVaX1JJKDG33LxheAT%2F3dlRaup6pJBU883PMh5suuY1msrT4DGfGyqFCvXwyo44OiVUFdk1eKAWHO8nsHFb0Pb%2FInk0M3%2BI1A0522izsyTdQycMwZsOfhupvO34jhCYY8Pit12xra1w7aDJM5H%2BIVkRGU9NH9DRjPdOTlIDR2rECqZRyeF13inCFL7w%3D%3D
+  indicadores_mensais_file_path: indicadores_mensais.csv
+  indicadores_trimestrais_file_path: indicadores_trimestrais.csv
+  market_cap_data_feed: https://api.data.economatica.com/1/oficial/datafeed/download/1/CFuw4Eb%2BqwBmNIZUMLBRAjGplpwsc9%2BFsx%2F6PWht015zobti8ADqub0XteCtc7VyQF18n6anYPs14KfWyJEWjKK6s7T4JabhFwIstKYp%2B6axFRvT7sWkF9a3X9tZYDPi4SD7DDaTqw%2FM0XQT%2BRrlWMH4Y1WuJsW14z2BkR0JgUB%2BNePVkCP4W723oMthJc1dslScdS6ahvbg1rBaNqmmU6ce7aswtkBfuYf3PvWm147zaXy9A65Kc4RKc%2BSEbB0ADNP0JyOl7DpgbyWMEQBcgjpC7bjTI7QM0VAC5r0yDEPylVP6oPjx4Mv6oVwt4ZmFuhqYgSA%2BHzRzOcUv37AaBQ%3D%3D-i%2FTvnDQKUaMTfs%2BVFSrgCTQjcfnsa%2FECfGi3dYeXiqIyOetSFbrAwXtWiK2y9H16QLGU3WHCGivsAy2FUluCz46ZoWHSD2H2jJX4r3x1syEhwqcIZM%2BLa8lwpTF7Y0jLzSYXXyKwjG%2FpiUHa6d0X8ht9xmo2xxC9ddwBWXqpK612GWbt56iUGmRT%2BHW1nj5K5u3GlMpJSFGgwzaIkCgIILKmu8V%2BrCq0k7XaSA057J7DM2HU2pCFd%2FTbBUMy%2B%2BAYuOAH9N7PMHiwb9NNEf9DU9wQLZMsW4EByne%2FipCCZSfNNynvAmPqBpTdqC%2FaE16nEIOBgplHS4TWOZAnM1g2tw%3D%3D
+  liquidez_file_path: liquidez_em_bolsa.csv
+  screening_ativos: screeening_ativos.csv
+app_configs:
+  logo_bridge: logo_bridge.jpeg
+  logo_ufpb: Brasão_UFPB.png
+  nefin_methods: NEFIN_methodology.pdf
+  logo_proex: logo_proex.png
+  logo_prg: logo_prg.png
+  logo_bequest: logo_bequest.png
+  nada: nada.png
+llm_configs:
+  system_prompt: 'Você é um Analista de Investimentos Sênior, especializado em Análise
+    Quantitativa e Investimento em Fatores (Factor Investing). Sua principal função
+    é atuar como um assistente analítico, ajudando o usuário a extrair insights, interpretar
+    dados e avaliar estratégias com base no relatório em PDF fornecido.
+
+    DIRETRIZES DE ATUAÇÃO:
+
+    1. FUNDAMENTAÇÃO NO DOCUMENTO: Sua principal fonte da verdade são os arquivos
+    PDF em anexo. Sempre que o usuário fizer uma pergunta, procure a resposta primeiramente
+    no documento. Se você utilizar conhecimentos de mercado externos ao PDF para complementar
+    a resposta, deixe essa distinção clara para o usuário.
+
+    2. ABORDAGEM FOCADA EM FATORES: Ao avaliar ativos, teses de investimentos ou portfólios,
+    direcione a análise para a exposição aos principais fatores de risco (ex: Valor,
+    Tamanho, Momento, Qualidade, Baixa Volatilidade, Yield). Avalie como a combinação
+    desses fatores afeta a expectativa de retorno.
+
+    3. RIGOR QUANTITATIVO: Sempre que possível, embase suas respostas em métricas
+    quantitativas apresentadas no relatório. Destaque elementos fundamentais para
+    a análise de fatores, como o cálculo de retornos históricos, matrizes de correlação
+    entre ativos, e análises de volatilidade anualizada para avaliar o risco ajustado.
+
+    4. TOM E ESTILO: Mantenha um tom profissional, imparcial, analítico e direto.
+    Utilize a terminologia financeira de forma correta, mas com didática suficiente
+    para garantir o entendimento da estratégia. Evite jargões desnecessários que não
+    agreguem à explicação.
+
+    5. LIMITAÇÃO DE RESPONSABILIDADE (DISCLAIMER): Você é um assistente analítico.
+    Quando o usuário pedir recomendações diretas de investimento, forneça cenários
+    baseados nos dados e na literatura de investimentos em fatores, mas conclua lembrando
+    que as análises têm caráter informativo/educacional e não substituem o aconselhamento
+    financeiro personalizado ou a recomendação de um analista credenciado pela CVM.
+
+    Deixe o próprio usuário guiar a conversa, e tente evitar enche-lo de informação
+    sem que ele requisite logo de cara. Não faça referências aos arquivos de forma
+    desnecessária. Fale sobre as suas referências apenas se for questionado sobre
+    isso. '
+sobre:
+  factor_construction:
+    beta_annomalie_factor: '### **Betta Against Beta**
+
+
+      O fator *Beta Against Beta* consiste no retorno do portfólio *long* nas ações
+
+      com menor beta (1º tercil da ordenação dos ativos) e *short* nas ações de maior
+
+      beta (3º tercil da ordenação), ponderados pelo inverso dos betas de cada
+
+      portfólio.
+
+
+      Com isso, podemos evitar que o nosso fator caia quando o mercado subir,
+
+      tendo em vista a própria definição de beta.
+
+
+      De forma prática, é a diferença dos retornos dos portfólios formados pelas
+
+      ações ilíquidas e líquidas.
+
+      '
+    illiquidity_factor: '### **Illiquid minus Liquid**
+
+
+      O fator *Illiquid minus Liquid* consiste no retorno do portfólio *long* nas
+      ações
+
+      com menor liquidez (1º tercil da ordenação dos ativos) e *short* nas ações de
+
+      maior liquidez (3º tercil da ordenação).
+
+
+      De forma prática, é a diferença dos retornos dos portfólios formados pelas
+
+      ações ilíquidas e líquidas.
+
+      '
+    market_factor: '### **Fator Mercado**
+
+
+      Este fator consiste na média da diferença entre o retorno do portfólio de
+
+      mercado ponderado por tamanho (utilizado o índice Ibovespa) e o retorno da
+
+      taxa livre de risco brasileira (utilizado o CDI).
+
+      '
+    momentum_factor: '### **Winners minus Loosers**
+
+
+      O fator *Winners minus Loosers* consiste no retorno do portfólio *long* nas
+      ações
+
+      com maior retorno acumulado nos meses t-12 e t-2 (3º tercil da ordenação dos
+
+      ativos) e *short* nas ações de menor retorno (1º tercil da ordenação).
+
+
+      De forma prática, é a diferença dos retornos dos portfólios formados pelas
+
+      ações vencedoras e perdedoras em termos de retorno acumulado.
+
+      '
+    size_factor: '### **Fator Small minus Big**
+
+
+      O fator *Small minus Big* consiste no retorno do portfólio *long* nas ações
+      de
+
+      menor valor de mercado (1º tercil da ordenação dos ativos) e *short* nas ações
+
+      de maior valor (3º tercil da ordenação).
+
+
+      De forma prática, é a diferença dos retornos dos portfólios formados pelas
+
+      ações de menor e de maior valor de mercado.
+
+      '
+    value_factor: '### **Fator High minus Low**
+
+
+      O fator *High minus Low* consiste no retorno do portfólio *long* nas ações de
+
+      maior razão entre valor contábil e valor de mercado (3º tercil da ordenação
+
+      dos ativos) e *short* nas ações de menor razão (1º tercil da ordenação).
+
+
+      De forma prática, é a diferença dos retornos dos portfólios formados pelas
+
+      ações de maior e menor razão *book-to-market*.
+
+      '
+  methodology_text: "# **Metodologia**\n\nOs portfólios que determinam os fatores\
+    \ de risco (bem como estes) foram criados\nde acordo com a metodologia definida\
+    \ no relatório metodológico do NEFIN, que\npode ser acessado pelo botão ao fim\
+    \ da página. \n\nAinda, é válido ressaltar que os dados do CDI foram retirados\
+    \ do Sistema Gerenciador de Séries Temporais, do Banco Central,\ne todos os demais\
+    \ dados foram extraídos da plataforma Economática.\n\nPara fins de tornar a checagem\
+    \ da metodologia mais acessível enquanto se navega\npor este relatório interativo,\
+    \ as principais etapas foram apresentadas abaixo.\n"
+  universe: '
+
+    ## **Universo do estudo e corte temporal**
+
+
+    Para que um ativo seja elegível para o estudo, este deve ser uma ação listada
+
+    na bolsa de valores do Brasil, ativo ou inativo no dia de hoje.
+
+
+    O corte temporal definido foi entre o período de 2011 e 2025, o que garante um
+
+    histórico suficientemente grande para analisar como os fatores se comportam em
+
+    diferentes momentos da história.
+
+    '
+  elegibility: "## **Elegibilidade**\n\nPara que os ativos selecionados sejam inclusos\
+    \ na formação dos portfólios de\ndeterminado fator, estes devem atender aos seguintes\
+    \ requisitos:\n\n- Ser a ação com maior liquidez da firma;\n- Ter negócios em\
+    \ pelo menos 80% dos dias do último ano (ou desde a sua\n  listagem) e volume\
+    \ negociado maior que R$ 500.000,00 por dia;\n- Ter sido listada antes do mês\
+    \ de dezembro do último ano.\n"
+  portfolio_construction:
+    beta_annomalie_portfolio: '### **Portfólios ordenados por Beta**
+
+
+      A cada mês *t* é feita a ordenação das ações elegíveis no ano corrente em
+
+      tercis de acordo com o seu beta referente aos retornos diários dos últimos
+
+      12 meses. Após isso, os retornos dos portfólios do mês *t* são calculados.
+
+      '
+    liquidity_portfolio: '### **Portfólios ordenados por Liquidez**
+
+
+      A cada mês *t* há a ordenação das ações elegíveis em tercis de acordo com o
+
+      volume negociado nos últimos 12 meses. Após isso, os retornos dos portfólios
+      no mês *t* são calculados.
+
+      '
+    momentum_portfolio: '### **Portfólios ordenados por Momentum**
+
+
+      A cada mês *t* há a ordenação das ações elegíveis em tercis de acordo com o
+
+      retorno acumulado entre o mês *t*-12 e o *t*-2. Após isso, os retornos dos portfólios
+      no mês *t* são calculados.
+
+      '
+    size_portfolio: '### **Portfólios ordenados por Tamanho**
+
+
+      Em todo mês de janeiro há a ordenação das ações elegíveis em tercis de acordo
+
+      com o valor de mercado da firma no mês de dezembro do ano anterior. Após isso,
+      os retornos dos portfólios no ano são calculados.
+
+      '
+    value_portfolio: '### **Portfólios ordenados por Valor**
+
+
+      Em todo mês de janeiro há a ordenação das ações elegíveis em tercis de acordo
+
+      com a razão entre o valor contábil e o valor de mercado da empresa no mês de
+
+      junho do ano anterior. Após isso, os retornos dos portfólios no ano são calculados.
+
+      '

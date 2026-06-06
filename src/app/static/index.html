@@ -1,0 +1,54 @@
+<style>
+
+
+    div[data-testid="stMetric"] {
+        background-color: #0E1117;
+        box-shadow: 0px 0px 10px rgba(210, 211, 220, 0.2);
+        padding: 1em 2em;
+        border-radius: 16px;
+    }
+
+    div[data-testid="stHorizontalBlock"] {
+            padding-right: 10px !important; 
+        }
+
+
+    div[data-testid="stVerticalBlock"]:has(> div > .stHtml > .probas) {
+        & div[data-testid="stMetric"] {
+            border-left: 0.5rem solid #fba725;
+        }
+    }
+
+    div[data-testid="stVerticalBlock"]:has(> div > .stHtml > .indicators) {
+        & div[data-testid="stMetric"] {
+            border-left: 0.5rem solid #fba725;
+        }
+    }
+
+    div[data-testid="stVerticalBlock"]:has(> div > .stHtml > .images)  {
+            margin-top: 1em;
+            margin-right: -10px !important;
+            padding: 1em;
+            border-radius: 8px;
+            background-color:#1E1E1E;
+            /* box-shadow: 0px 0px 10px rgba(210, 211, 220, 0.2); */
+        }
+
+    div[data-testid="stVerticalBlock"]:has(> div > .stHtml > .any_container)  {
+            margin-top: 1em;
+            margin-right: -10px !important;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(210, 211, 220, 0.2);
+        }
+
+    div[data-testid="stExpander"]:has(> div > .stHtml > .any_container)  {
+            margin-top: 1em;
+            margin-right: -10px !important;
+            padding: 1em;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(210, 211, 220, 0.2);
+        }
+    
+
+</style>
