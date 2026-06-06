@@ -8,6 +8,7 @@ from streamlit_echarts import st_echarts
 from backtest import Backtest, FACTOR_RENAME
 from utils import get_config, sanitize_df
 from calculating_factors import RiskFactors
+import os
 
 # aqui teremos uma aba com um screening de ativos
 
@@ -153,9 +154,14 @@ def update_data():
                 cols_to_cast_float=["close"],
                 cols_to_cast_int=[],
                 col_to_cast_date="data",
-            )[["ticker", "data", "close"]].dropna(subset="close")
+            )
+    
+    df_elegibilidade = (
+                bt.get_data(config["elegibilidade_data_feed"], feed=True)
+            )
 
     df_cotacoes.to_csv(f"{config["data_path"]}/cotacoes_liquidez_ativos.csv")
+    df_elegibilidade.to_csv(f"{config["data_path"]}/elegibilidade_ativos.csv")
 
     get_screening_df()
     risk_factors.transform_trimestral_indicators()
